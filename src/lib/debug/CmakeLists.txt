@@ -1,0 +1,6 @@
+SLIB_INIT(
+    LNAME Debug
+    SRCS debug.c
+    INCLUDE include
+    PRIV_REQ Core Gpio Usart
+)
